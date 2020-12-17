@@ -25,6 +25,6 @@ export class ProductDetailsComponent implements OnInit {
 
   addToCart(product) {
     this.cartService.addToCart(product);
-    window.alert("your proudct is add card server");
+   // window.alert("your proudct is add card server");
   }
 }
